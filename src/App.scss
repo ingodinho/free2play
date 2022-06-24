@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600;700;900&family=Titillium+Web:wght@400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --fnt-fm-tit: 'Titillium Web', sans-serif;
+    --fnt-fm-osw: 'Oswald', sans-serif;
+    --ftn-source: 'Source Sans Pro', sans-serif;
+
+    --clr-back: #040F14;
+    --clr-item-card: #102130;
+    --clr-drop: #375470;
+    --clr-unknown: #AFC7DF;
+    --clr-red: #FF4654;
+    --clr-white: #fff;
+}
+
+// 
+// =====================GENERAL STYLES=====================================
+// 
+
+body {
+    max-width: 1440px;
+    background-color: var(--clr-back);
+    color: var(--clr-white);
+    font-family: var(--fnt-fm-osw);
+}

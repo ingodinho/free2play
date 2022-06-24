@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 10rem 2.5rem 15rem;
+    width: 100%;
+}
+
+.navbar__logos {
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.navbar__logos_title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.navbar__search__box {
+    position: relative;
+    width: 30rem;
+}
+
+.navbar__search__input {
+    font-family: var(--fnt-fm-tit);
+    color: inherit;
+    font-size: 1.6rem;
+    font-weight: 600;
+    height: 4rem;
+    padding: 0.5rem 5%;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--clr-drop);
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.navbar__search__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+}

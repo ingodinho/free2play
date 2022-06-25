@@ -19,7 +19,7 @@
 
 .card-area__grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
 	margin: 5vh 0;
 	column-gap: 2.5rem;
 	row-gap: 2.5rem;

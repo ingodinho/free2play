@@ -1,0 +1,23 @@
+.pages__hero {
+  background: center / cover no-repeat;
+  padding: 40vh 0 10vh 0;
+  border-radius: 24px;
+  margin-left: calc(var(--space-left));
+  margin-right: calc(var(--space-right));
+
+  article {
+    padding: 0 var(--space-right) 0 var(--space-left);
+}
+
+  h2 {
+      font-size: 4.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      width: 15ch;
+      line-height: 1.2;
+  }
+}
+
+.all-games__hero {
+  background-image: url('../img/all_games.png');
+}

@@ -1,9 +1,9 @@
 import './Home.scss';
 
-import HomeHero from '../components/HomeHero';
-import HomeRecently from '../components/HomeRecently';
-import TopPC from '../components/TopPC';
-import TopBrowser from '../components/TopBrowser';
+import HomeHero from '../components/home/HomeHero';
+import HomeRecently from '../components/home/HomeRecently';
+import TopPC from '../components/home/TopPC';
+import TopBrowser from '../components/home/TopBrowser';
 
 import axios from 'axios';
 import { useState, useEffect } from 'react';
@@ -32,7 +32,7 @@ const Home = () => {
 	return (
 		<>
 			<HomeHero />
-			<main className="home__main">
+			<main className="page__main">
 				<HomeRecently />
 				<TopPC />
 				<TopBrowser />

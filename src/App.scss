@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Source+Sans+Pro:wght@400;600;700;900&family=Titillium+Web:wght@400;600;700;900&display=swap');
 
 @import './scss/reusable.scss';
+@import './scss/pagesHero.scss';
 
 * {
     margin: 0;
@@ -24,8 +25,8 @@
     --clr-white: #fff;
     --clr-card-border: rgba(255, 255, 255, 0.2);
 
-    --space-left: 10%;
-    --space-right: 10%;
+    --space-left: 15rem;
+    --space-right: 10rem;
 }
 
 // =====================GENERAL STYLES=====================================

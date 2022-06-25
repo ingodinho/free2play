@@ -1,5 +1,12 @@
 // ======================REUSABLE COMPONENTS================================
 
+// =======================MAIN===============================
+
+.page__main {
+	padding: 0 var(--space-right) 0 var(--space-left); 
+}
+
+
 // =======================CARD-GRID===================
 .card-area {
 	padding: 10vh 0;
@@ -15,6 +22,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 	margin: 5vh 0;
 	column-gap: 2.5rem;
+	row-gap: 2.5rem;
 }
 
 // ======================CARD=============================

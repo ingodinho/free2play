@@ -1,0 +1,19 @@
+.home-recently {
+    padding: 10vh 0;
+
+    h3 {
+        font-size: 2.4rem;
+    }
+
+}
+
+.home-recently__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    margin: 5vh 0;
+    column-gap: 2.5rem;
+}
+
+.home-recently__more {
+    text-align: right;
+}

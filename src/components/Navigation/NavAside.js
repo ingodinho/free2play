@@ -10,7 +10,7 @@ const NavAside = ({triggerMenu, closeMenu,openMenu, sideOpen}) => {
 	return (
 		<aside className='nav__aside'>
 			<nav className='nav__aside__flex'>
-				{!sideOpen && <List size={32} onClick={openMenu} />}
+				{!sideOpen && <List size={32} onClick={openMenu} className='nav__aside__flex__burger'/>}
 				{sideOpen && <X size={32} onClick={closeMenu} className='nav__aside__flex__x'/>}
 				<ul className='nav__aside__menu'>
 					<NavLink

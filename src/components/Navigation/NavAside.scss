@@ -1,6 +1,8 @@
 .nav__aside {
     position: fixed;
+    top: 0;
     border-right: 1px solid var(--clr-white);
+    background-color: var(--clr-back);
 }
 
 .nav__aside__flex {
@@ -8,7 +10,7 @@
     flex-direction: column;
     justify-content:space-between;
     height: 100vh;
-    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    padding: 1.5rem 1rem 1.5rem 1.0rem;
 }
 
 .nav__aside__menu {
@@ -17,6 +19,10 @@
         text-decoration: none;
         color: inherit;
     }
+}
+
+.nav__aside__flex__burger {
+    align-self: center;
 }
 
 .nav__aside__flex__x {
@@ -40,6 +46,7 @@
     span {
         flex-grow: 1;
         text-align: left;
+        padding-right: 1rem;
     }
 }
 

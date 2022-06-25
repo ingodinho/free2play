@@ -1,16 +1,14 @@
-import './HomeRecently.scss';
-import HomeRecentlyItem from './HomeRecentlyItem';
-import data1 from '../dummydata/data1';
+import HomeRecentlyCard from './HomeRecentlyCard';
 
 const HomeRecently = () => {
 	return (
-		<section className='home-recently'>
+		<section className='card-area'>
 			<h3>Recently Added</h3>
-			<div className='home-recently__grid'>
-					<HomeRecentlyItem />
-					<HomeRecentlyItem />
-					<HomeRecentlyItem />
-					<HomeRecentlyItem />
+			<div className='card-area__grid'>
+					<HomeRecentlyCard />
+					<HomeRecentlyCard />
+					<HomeRecentlyCard />
+					<HomeRecentlyCard />
 			</div>
 			<div className='btn__right'>
 				<button className='btn__prm'>SHOW MORE</button>

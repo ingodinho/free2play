@@ -1,5 +1,22 @@
 // ======================REUSABLE COMPONENTS================================
 
+// =======================CARD-GRID===================
+.card-area {
+	padding: 10vh 0;
+
+	h3 {
+			font-size: 2.4rem;
+	}
+
+}
+
+.card-area__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	margin: 5vh 0;
+	column-gap: 2.5rem;
+}
+
 // ======================CARD=============================
 
 .card {
@@ -28,7 +45,7 @@
 		h4 {
 			font-size: 1.8rem;
 			font-weight: 700;
-			margin-bottom: 1.5rem;
+			margin-bottom: 4rem;
 		}
 
 		p {
@@ -36,7 +53,7 @@
 			color: var(--clr-card-text);
 			font-size: 1.6rem;
 			line-height: 1.5;
-			margin-bottom: 2rem;
+			margin-bottom: 4rem;
 		}
 
 		button {

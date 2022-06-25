@@ -1,6 +1,6 @@
-import './HomeRecentlyItem.scss';
+// import './HomeRecentlyItem.scss';
 
-const HomeRecentlyItem = () => {
+const HomeRecentlyCard = () => {
 	let url = 'https://www.freetogame.com/g/467/thumbnail.jpg';
 
 	return (
@@ -26,4 +26,4 @@ const HomeRecentlyItem = () => {
 	);
 };
 
-export default HomeRecentlyItem;
+export default HomeRecentlyCard;

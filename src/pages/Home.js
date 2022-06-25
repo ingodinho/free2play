@@ -3,6 +3,7 @@ import './Home.scss';
 import HomeHero from '../components/HomeHero';
 import HomeRecently from '../components/HomeRecently';
 import TopPC from '../components/TopPC';
+import TopBrowser from '../components/TopBrowser';
 
 import axios from 'axios';
 import { useState, useEffect } from 'react';
@@ -34,6 +35,7 @@ const Home = () => {
 			<main className="home__main">
 				<HomeRecently />
 				<TopPC />
+				<TopBrowser />
 			</main>
 		</>
 	)

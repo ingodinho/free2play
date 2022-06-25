@@ -8,7 +8,7 @@ const Navbar = ({sideOpen}) => {
             <nav className='navbar'>
                 <div className="navbar__logos" style={{transform: `${sideOpen ? 'translateX(15ch)' : 'translateX(0)'}`}}>
                     <img src={logo} alt='logo' className='navbar__logos_logo'/>
-                    <h1 className='navbar__logos_title'>FREE2GAME</h1>
+                    <h1 className='navbar__logos_title'>FREE2PLAY</h1>
                 </div>
                 <div className="navbar__search__box">
                     <input type="text" className='navbar__search__input'/>

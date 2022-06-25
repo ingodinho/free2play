@@ -1,5 +1,5 @@
 import './App.scss';
-import Nav from './components/Navigation/Nav';
+import Nav from './components/navigation/Nav';
 import Home from './pages/Home';
 import AllGames from './pages/AllGames';
 import RecentlyAdded from './pages/RecentlyAdded';

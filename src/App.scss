@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700;800&family=Source+Sans+Pro:wght@400;600;700;900&family=Titillium+Web:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Source+Sans+Pro:wght@400;600;700;900&family=Titillium+Web:wght@400;600;700;900&display=swap');
+
+@import './scss/reusable.scss';
 
 * {
     margin: 0;
@@ -12,6 +14,7 @@
     --fnt-fm-tit: 'Titillium Web', sans-serif;
     --fnt-fm-osw: 'Oswald', sans-serif;
     --ftn-source: 'Source Sans Pro', sans-serif;
+    --ftn-fm-roboto: 'Roboto', sans-serif;
 
     --clr-back: #040F14;
     --clr-item-card: #102130;
@@ -25,9 +28,7 @@
     --space-right: 10%;
 }
 
-// 
 // =====================GENERAL STYLES=====================================
-// 
 
 body {
     max-width: 1440px;
@@ -35,26 +36,4 @@ body {
     background-color: var(--clr-back);
     color: var(--clr-white);
     font-family: var(--fnt-fm-osw);
-}
-
-// ======================REUSABLE COMPONENTS================================
-
-.btn__prm {
-    display: inline-block;
-    font-size: 1.8rem;
-    font-weight: 800;
-    font-family: inherit;
-    color: inherit;
-    border: none;
-    border-radius: 12px;
-    background-color: var(--clr-red);
-    padding: 1.2rem 2.4rem;
-}
-
-.label__card {
-    display: inline-block;
-    font-size: 1.6rem;
-    border: var(--clr-red) 1px solid;
-    border-radius: 15px;
-    padding: 0.5rem 1rem;
 }

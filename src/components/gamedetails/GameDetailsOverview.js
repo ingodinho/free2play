@@ -26,6 +26,16 @@ const GameDetailsOverview = () => {
 					))}
 				</article>
 			</div>
+			<div className="details__overview__screenshots">
+				<img
+					src='https://www.freetogame.com/g/475/genshin-impact-2.jpg'
+					alt=''
+				/>
+				<img
+					src='https://www.freetogame.com/g/475/genshin-impact-2.jpg'
+					alt=''
+				/>
+			</div>
 		</section>
 	);
 };

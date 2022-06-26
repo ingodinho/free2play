@@ -1,0 +1,44 @@
+.details__specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+  column-gap: 2.5rem;
+  padding-bottom: 5rem;
+
+  h5 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+  }
+  
+  p,span {
+    font-family: var(--fnt-fm-tit);
+    font-size: 1.6rem;
+  }
+  
+  h6 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+.details__specs__info {
+  padding: 0 2.5rem;
+}
+
+.details__specs__info__table {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min(10rem, 100%), 20rem));
+  row-gap:  2.5rem;
+}
+
+.details__specs__require {
+  padding: 0 2.5rem;
+}
+
+.details__specs__require__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  column-gap: 5rem;
+  row-gap: 2.5rem;
+}

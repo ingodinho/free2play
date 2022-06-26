@@ -1,6 +1,6 @@
 # free2play
 
-Dass free2play ist ein Projekt, welches ich im Zuge des Bootcamps von SuperCode baue.
+free2play ist ein Projekt, welches ich im Zuge des Bootcamps von SuperCode baue.
 
 Idee und Design des Projekts kommt von SuperCode.
 

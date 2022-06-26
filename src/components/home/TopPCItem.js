@@ -1,4 +1,5 @@
 import './TopPCItem.scss';
+import {Link} from 'react-router-dom';
 
 const TopPCItem = () => {
 	let url = 'https://www.freetogame.com/g/467/thumbnail.jpg';
@@ -9,7 +10,7 @@ const TopPCItem = () => {
 			<div className='home__top-pc__item__body'>
 				<article>
 						<h4>Genshin Impact</h4>
-						<button className='btn__prm'>READ MORE</button>
+						<Link to={'/gamedetails'}><button className='btn__prm'>READ MORE</button></Link>
 				</article>
 				<div className='label__cards__container'>
 					<span className='label__card'>MS</span>

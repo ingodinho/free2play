@@ -2,8 +2,8 @@
   background: center / cover no-repeat;
   padding: 40vh 0 10vh 0;
   border-radius: 24px;
-  margin-left: calc(var(--space-left));
-  margin-right: calc(var(--space-right));
+  margin-left: calc(var(--space-left) - 5rem);
+  margin-right: calc(var(--space-right) - 5rem);
 
   article {
     padding: 0 var(--space-right) 0 var(--space-left);

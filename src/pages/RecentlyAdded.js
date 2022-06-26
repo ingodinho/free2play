@@ -1,4 +1,3 @@
-import './RecentlyAdded.scss';
 import RecentlyAddedHero from '../components/recentlyadded/RecentlyAddedHero';
 import RecentlyAddedList from '../components/recentlyadded/RecentlyAddedList';
 

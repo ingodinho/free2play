@@ -1,4 +1,4 @@
-// import './HomeRecentlyItem.scss';
+import {Link} from 'react-router-dom';
 
 const HomeRecentlyCard = () => {
 	let url = 'https://www.freetogame.com/g/467/thumbnail.jpg';
@@ -15,7 +15,7 @@ const HomeRecentlyCard = () => {
 						Star 2 Online, Sega’s popular, free-to-play sci-fi
 						MMORPG.
 					</p>
-					<button className='btn__prm'>READ MORE</button>
+					<Link to={'/gamedetails'}><button className='btn__prm'>READ MORE</button></Link>
 				</article>
 				<div className='label__cards__container'>
 					<span className='label__card'>MS</span>

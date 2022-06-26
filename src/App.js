@@ -15,7 +15,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/allgames' element={<AllGames/>}/>
         <Route path='/recently' element={<RecentlyAdded/>}/>
-        <Route path='/gamedetails/:id' element={<GameDetails/>}/>
+        <Route path='/gamedetails/' element={<GameDetails/>}/>
       </Routes>
     </div>
   );

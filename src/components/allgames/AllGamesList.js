@@ -1,8 +1,9 @@
+import './AllGamesList.scss';
 import Card from '../Card';
 
 const AllGamesList = () => {
 	return (
-		<section className='card-area'>
+		<section className='card-area all-games__list'>
 			<div className='card-area__grid'>
 				<Card />
 				<Card />

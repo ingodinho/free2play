@@ -86,8 +86,12 @@
   border-radius: 12px;
   background-color: var(--clr-red);
   padding: 1.2rem 2.4rem;
+	cursor: pointer;
+	transition: 300ms all;
 
   &:hover {
+		background-color: var(--clr-red-ac);
+		box-shadow: 0 0px 10px var(--clr-red-ac);
   }
 }
 

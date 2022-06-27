@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: 5fr 7fr;
   column-gap: 2.5rem;
+  row-gap: 2.5rem;
   margin: 5vh 0;
 }
 
@@ -17,4 +18,10 @@
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .home__top-pc__grid {
+    grid-template-columns: 1fr;
+  }
 }

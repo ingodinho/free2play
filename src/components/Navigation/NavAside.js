@@ -1,5 +1,4 @@
 import './NavAside.scss';
-import { useState } from 'react';
 import { List, House, GameController, Plus, X } from 'phosphor-react';
 import { NavLink } from 'react-router-dom';
 

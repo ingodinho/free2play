@@ -22,6 +22,7 @@
     --clr-drop: #375470;
     --clr-card-text: #AFC7DF;
     --clr-red: #FF4654;
+    --clr-red-ac: #FF5E6C;
     --clr-white: #fff;
     --clr-card-border: rgba(255, 255, 255, 0.2);
 
@@ -43,4 +44,23 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+
+// =====================MEDIA QUERIES=====================================
+
+@media only screen and (max-width: 900px) {
+    :root {
+        --space-left: 10rem;
+        --space-right: 5rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    :root {
+        font-size: 50%;
+        --space-left: 8rem;
+        --space-right: 1rem;
+    }
 }

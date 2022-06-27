@@ -4,9 +4,15 @@ import Home from './pages/Home';
 import AllGames from './pages/AllGames';
 import RecentlyAdded from './pages/RecentlyAdded';
 import GameDetails from './pages/GameDetails';
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, useLocation} from 'react-router-dom';
+import {useEffect} from 'react';
 
 function App() {
+  const {pathname} = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, [pathname])
 
   return (
     <div className="App">

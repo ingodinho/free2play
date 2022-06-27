@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
   column-gap: 2.5rem;
+  row-gap: 7.5rem;
   padding-bottom: 5rem;
 
   h5 {
